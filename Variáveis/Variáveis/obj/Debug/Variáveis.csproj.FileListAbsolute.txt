@@ -1,0 +1,8 @@
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\bin\Debug\Variáveis.exe.config
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\bin\Debug\Variáveis.exe
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\bin\Debug\Variáveis.pdb
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csproj.SuggestedBindingRedirects.cache
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\obj\Debug\Variáveis.exe
+C:\Users\joaomaciel\Desktop\C#\Variáveis\Variáveis\obj\Debug\Variáveis.pdb

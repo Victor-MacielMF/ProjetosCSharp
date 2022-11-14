@@ -1,0 +1,15 @@
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\bin\Debug\net6.0\Curso2.exe
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\bin\Debug\net6.0\Curso2.deps.json
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\bin\Debug\net6.0\Curso2.runtimeconfig.json
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\bin\Debug\net6.0\Curso2.dll
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\bin\Debug\net6.0\Curso2.pdb
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.AssemblyInfoInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.AssemblyInfo.cs
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.dll
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\refint\Curso2.dll
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.pdb
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\Curso2.genruntimeconfig.cache
+C:\Users\joaomaciel\Desktop\C#\Curso2\Curso2\obj\Debug\net6.0\ref\Curso2.dll

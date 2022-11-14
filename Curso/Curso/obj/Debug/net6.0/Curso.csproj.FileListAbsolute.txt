@@ -1,0 +1,15 @@
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\bin\Debug\net6.0\Curso.exe
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\bin\Debug\net6.0\Curso.deps.json
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\bin\Debug\net6.0\Curso.runtimeconfig.json
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\bin\Debug\net6.0\Curso.dll
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\bin\Debug\net6.0\Curso.pdb
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.AssemblyInfoInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.AssemblyInfo.cs
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.dll
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\refint\Curso.dll
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.pdb
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\Curso.genruntimeconfig.cache
+C:\Users\joaomaciel\Desktop\C#\Curso\Curso\obj\Debug\net6.0\ref\Curso.dll

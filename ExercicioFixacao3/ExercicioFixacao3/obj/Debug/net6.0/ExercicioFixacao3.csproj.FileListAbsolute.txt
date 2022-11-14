@@ -1,0 +1,15 @@
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\bin\Debug\net6.0\ExercicioFixacao3.exe
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\bin\Debug\net6.0\ExercicioFixacao3.deps.json
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\bin\Debug\net6.0\ExercicioFixacao3.runtimeconfig.json
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\bin\Debug\net6.0\ExercicioFixacao3.dll
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\bin\Debug\net6.0\ExercicioFixacao3.pdb
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.AssemblyInfoInputs.cache
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.AssemblyInfo.cs
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.dll
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\refint\ExercicioFixacao3.dll
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.pdb
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ExercicioFixacao3.genruntimeconfig.cache
+C:\Users\joaomaciel\Desktop\C#\ExercicioFixacao3\ExercicioFixacao3\obj\Debug\net6.0\ref\ExercicioFixacao3.dll

@@ -1,0 +1,15 @@
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\bin\Debug\net6.0\Uri.exe
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\bin\Debug\net6.0\Uri.deps.json
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\bin\Debug\net6.0\Uri.runtimeconfig.json
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\bin\Debug\net6.0\Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\bin\Debug\net6.0\Uri.pdb
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.AssemblyInfoInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.AssemblyInfo.cs
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\refint\Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.pdb
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\Uri.genruntimeconfig.cache
+C:\Users\joaomaciel\Desktop\C#\Uri\Uri\obj\Debug\net6.0\ref\Uri.dll

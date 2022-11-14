@@ -1,0 +1,15 @@
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\bin\Debug\net6.0\Exercicio1Uri.exe
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\bin\Debug\net6.0\Exercicio1Uri.deps.json
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\bin\Debug\net6.0\Exercicio1Uri.runtimeconfig.json
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\bin\Debug\net6.0\Exercicio1Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\bin\Debug\net6.0\Exercicio1Uri.pdb
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.csproj.AssemblyReference.cache
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.AssemblyInfoInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.AssemblyInfo.cs
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.csproj.CoreCompileInputs.cache
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\refint\Exercicio1Uri.dll
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.pdb
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\Exercicio1Uri.genruntimeconfig.cache
+C:\Users\joaomaciel\Desktop\C#\Exercicio1Uri\Exercicio1Uri\obj\Debug\net6.0\ref\Exercicio1Uri.dll
