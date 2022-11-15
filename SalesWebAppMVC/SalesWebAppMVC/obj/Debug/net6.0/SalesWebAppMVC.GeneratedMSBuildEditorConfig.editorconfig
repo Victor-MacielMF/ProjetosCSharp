@@ -11,7 +11,7 @@ build_property.RootNamespace = SalesWebAppMVC
 build_property.ProjectDir = C:\Repositorios-locais\ProjetosCSharp\SalesWebAppMVC\SalesWebAppMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Repositorios-locais\ProjetosCSharp\SalesWebAppMVC\SalesWebAppMVC
 build_property._RazorSourceGeneratorDebug = 
 

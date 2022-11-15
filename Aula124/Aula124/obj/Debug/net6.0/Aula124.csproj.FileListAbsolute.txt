@@ -1,0 +1,15 @@
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\bin\Debug\net6.0\Aula124.exe
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\bin\Debug\net6.0\Aula124.deps.json
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\bin\Debug\net6.0\Aula124.runtimeconfig.json
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\bin\Debug\net6.0\Aula124.dll
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\bin\Debug\net6.0\Aula124.pdb
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.csproj.AssemblyReference.cache
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.AssemblyInfoInputs.cache
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.AssemblyInfo.cs
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.csproj.CoreCompileInputs.cache
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.dll
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\refint\Aula124.dll
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.pdb
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\Aula124.genruntimeconfig.cache
+C:\Repositorios-locais\ProjetosCSharp\Aula124\Aula124\obj\Debug\net6.0\ref\Aula124.dll
