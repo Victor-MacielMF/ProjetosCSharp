@@ -3,15 +3,15 @@ using ProjetosCentralizados.Entities.Enums;
 
 namespace ProjetosCentralizados.Entities
 {
-    internal class Worker
+    internal class Aula128_Worker
     {
         public string Name { get; set; }
-        public WorkerLevel Level { get; set; }
+        public Aula128_WorkerLevel Level { get; set; }
         public double BaseSalary { get; set; }
-        public Departament Departament { get; set; }
-        public List<HourContract> Contracts { get; set; } = new List<HourContract>();
+        public Aula128_Departament Departament { get; set; }
+        public List<Aula128_HourContract> Contracts { get; set; } = new List<Aula128_HourContract>();
 
-        public Worker(string name, WorkerLevel level, double baseSalary, Departament departament)
+        public Aula128_Worker(string name, Aula128_WorkerLevel level, double baseSalary, Aula128_Departament departament)
         {
             Name = name;
             Level = level;
@@ -19,12 +19,12 @@ namespace ProjetosCentralizados.Entities
             Departament = departament;
         }
 
-        public void AddContract(HourContract contract)
+        public void AddContract(Aula128_HourContract contract)
         {
             Contracts.Add(contract);
         }
 
-        public void RemoveContract(HourContract contract)
+        public void RemoveContract(Aula128_HourContract contract)
         {
             Contracts.Remove(contract);
         }
@@ -33,7 +33,7 @@ namespace ProjetosCentralizados.Entities
         {
             double TotalSalary = BaseSalary;
 
-            foreach (HourContract contract in Contracts)
+            foreach (Aula128_HourContract contract in Contracts)
             {
                 if(contract.Date.Year == year && contract.Date.Month == month)
                 {

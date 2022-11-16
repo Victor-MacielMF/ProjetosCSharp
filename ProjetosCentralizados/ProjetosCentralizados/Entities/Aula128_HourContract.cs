@@ -2,13 +2,13 @@
 
 namespace ProjetosCentralizados.Entities
 {
-    internal class HourContract
+    internal class Aula128_HourContract
     {
         public DateTime Date { get; set; }
         public double ValuePerHour { get; set; }
         public int Hours { get; set; }
 
-        public HourContract(DateTime date, double valuePerHour, int hours)
+        public Aula128_HourContract(DateTime date, double valuePerHour, int hours)
         {
             Date = date;
             ValuePerHour = valuePerHour;

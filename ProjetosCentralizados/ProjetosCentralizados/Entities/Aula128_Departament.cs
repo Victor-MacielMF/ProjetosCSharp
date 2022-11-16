@@ -2,11 +2,11 @@
 
 namespace ProjetosCentralizados.Entities
 {
-    internal class Departament
+    internal class Aula128_Departament
     {
         public string Name { get; set; }
 
-        public Departament(string name)
+        public Aula128_Departament(string name)
         {
             Name = name;
         }
