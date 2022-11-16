@@ -1,4 +1,66 @@
-﻿using System;
+﻿//Aula 140
+
+using System;
+using System.Globalization;
+using ProjetosCentralizados.Entities;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the number of employees: ");
+            int InputQuantityEmployees = int.Parse(Console.ReadLine());
+
+            List<Aula140_Employee> EmployeeList = new List<Aula140_Employee>();
+
+            for (int i = 0; i < InputQuantityEmployees; i++)
+            {
+                Console.WriteLine("Employee #{0} data: ", i + 1);
+                Console.Write("Outsourced (y/n)? ");
+                char InputTypeEmployee = char.Parse(Console.ReadLine());
+                Console.Write("Name: ");
+                string InputNameEmployee = Console.ReadLine();
+                Console.Write("Hours: ");
+                int InputHoursEmployee = int.Parse(Console.ReadLine());
+                Console.Write("Value per hour: ");
+                double InputValueHourEmployee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (InputTypeEmployee == 'y')
+                {
+                    Console.Write("Additional charge: ");
+                    double InputAdditionalEmployee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    Aula140_OutsourcedEmployee OutsourcedEmployee = new Aula140_OutsourcedEmployee(InputNameEmployee, InputHoursEmployee, InputValueHourEmployee, InputAdditionalEmployee);
+                    EmployeeList.Add(OutsourcedEmployee);
+                }
+                else if (InputTypeEmployee == 'n')
+                {
+                    Aula140_Employee InternalEmployee = new Aula140_Employee(InputNameEmployee, InputHoursEmployee, InputValueHourEmployee);
+                    EmployeeList.Add(InternalEmployee);
+                }
+                else
+                {
+                    Console.WriteLine("Ooops, ocorreu um imprevisto.");
+                    break;
+                }
+            }
+
+            Console.WriteLine("\nPAYMENTS: ");
+            foreach (Aula140_Employee Employee in EmployeeList)
+            {
+                Console.WriteLine(Employee);
+            }
+        }
+    }
+}
+
+
+/*
+// Aula 138
+
+using System;
 using System.Globalization;
 using ProjetosCentralizados.Entities;
 using ProjetosCentralizados.Entities.Enums;
@@ -45,7 +107,6 @@ namespace ProjetosCentralizados
         }
     }
 }
-/*
 
 //Exercicio - Aula 128
 

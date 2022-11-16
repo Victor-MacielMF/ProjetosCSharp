@@ -13,3 +13,18 @@ C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizado
 C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.pdb
 C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.genruntimeconfig.cache
 C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ref\ProjetosCentralizados.dll
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\bin\Debug\net6.0\ProjetosCentralizados.exe
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\bin\Debug\net6.0\ProjetosCentralizados.deps.json
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\bin\Debug\net6.0\ProjetosCentralizados.runtimeconfig.json
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\bin\Debug\net6.0\ProjetosCentralizados.dll
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\bin\Debug\net6.0\ProjetosCentralizados.pdb
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.csproj.AssemblyReference.cache
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.AssemblyInfoInputs.cache
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.AssemblyInfo.cs
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.csproj.CoreCompileInputs.cache
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.dll
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\refint\ProjetosCentralizados.dll
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.pdb
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ProjetosCentralizados.genruntimeconfig.cache
+C:\Repositórios locais\Curso-C#\ProjetosCentralizados\ProjetosCentralizados\obj\Debug\net6.0\ref\ProjetosCentralizados.dll
