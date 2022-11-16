@@ -1,4 +1,60 @@
-﻿//Aula 145
+﻿//Aula 146
+
+using System;
+using System.Globalization;
+using ProjetosCentralizados.Entities;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the number of tax payers: ");
+            int InputQuantityPayers = int.Parse(Console.ReadLine());
+            List<Aula146_TaxPayer> TaxPayersList = new List<Aula146_TaxPayer>();
+
+            for (int i = 0; i < InputQuantityPayers; i++)
+            {
+                Console.WriteLine("Tax payer #{0} data:", i+1);
+                Console.Write("Individual or company (i/c)? ");
+                char InputTypePayer = char.Parse(Console.ReadLine());
+                Console.Write("Name: ");
+                string InputNamePayer = Console.ReadLine();
+                Console.Write("Anual income: ");
+                double InputIncomePayer = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (InputTypePayer == 'i')
+                {
+                    Console.Write("Health expenditures: ");
+                    double InputHealthPayer = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Aula146_Individual Individual = new Aula146_Individual(InputNamePayer, InputIncomePayer, InputHealthPayer);
+                    TaxPayersList.Add(Individual);
+                }else if (InputTypePayer == 'c')
+                {
+                    Console.Write("Number of employees: ");
+                    int InputNumberOfEmployees = int.Parse(Console.ReadLine());
+                    Aula146_Company Company = new Aula146_Company(InputNamePayer, InputIncomePayer, InputNumberOfEmployees);
+                    TaxPayersList.Add(Company);
+                }
+            }
+
+            Console.WriteLine("\nTAXES PAIDS: ");
+
+            double Total = 0;
+            foreach (Aula146_TaxPayer taxPayer in TaxPayersList)
+            {
+                Console.WriteLine(taxPayer);
+                Total += taxPayer.Tax();
+            }
+
+            Console.WriteLine("\nTOTAL TAXES: $ " + Total.ToString("F2", CultureInfo.InvariantCulture));
+        }
+    }
+}
+
+/*
+//Aula 145
 
 using System;
 using System.Globalization;
@@ -50,7 +106,7 @@ namespace ProjetosCentralizados
     }
 }
 
-/*
+
 //Aula 142
 
 using System.Globalization;
