@@ -1,4 +1,43 @@
-﻿//Aula 146
+﻿// Aula 155
+
+using System;
+using System.Globalization;
+using ProjetosCentralizados.Entities;
+using ProjetosCentralizados.Entities.Exceptions;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Enter account data");
+                Console.Write("Number: ");
+                int InputNumberAccount = int.Parse(Console.ReadLine());
+                Console.Write("Holder: ");
+                string InputHolderAccount = Console.ReadLine();
+                Console.Write("Initial balance: ");
+                double InputBalanceAccount = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Withdraw limit: ");
+                double InputWithdrawLimitAccount = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("\nEnter amount for withdraw: ");
+                double InputWithdrawAccount = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Aula155_Account Account = new Aula155_Account(InputNumberAccount, InputHolderAccount, InputBalanceAccount, InputWithdrawLimitAccount);
+                Account.Withdraw(InputWithdrawAccount);
+                Console.WriteLine(Account);
+            }
+            catch (Aula155_DomainException e)
+            {
+                Console.WriteLine("Withdraw error: " + e.Message);
+            }
+        }
+    }
+}
+
+/*
+//Aula 146
 
 using System;
 using System.Globalization;
@@ -53,7 +92,7 @@ namespace ProjetosCentralizados
     }
 }
 
-/*
+
 //Aula 145
 
 using System;
