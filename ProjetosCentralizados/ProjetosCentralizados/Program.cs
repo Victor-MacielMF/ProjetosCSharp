@@ -1,4 +1,61 @@
-﻿//Aula 140
+﻿//Aula 142
+
+using System.Globalization;
+using ProjetosCentralizados.Entities;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the number of employees: ");
+            int InputQuantityProducts = int.Parse(Console.ReadLine());
+
+            List<Aula142_Product> ProductsList = new List<Aula142_Product>();
+
+            for (int i = 0; i < InputQuantityProducts; i++)
+            {
+                Console.WriteLine("Product #{0} data:", i+1);
+                Console.Write("Common, used or imported (c/u/i)? ");
+                char InputTypeProduct = char.Parse(Console.ReadLine());
+                Console.Write("Name: ");
+                string InputNameProduct = Console.ReadLine();
+                Console.Write("Price: ");
+                double InputPriceProduct = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (InputTypeProduct == 'c')
+                {
+                    Aula142_Product CommonProduct = new Aula142_Product(InputNameProduct, InputPriceProduct);
+                    ProductsList.Add(CommonProduct);
+                }
+                else if (InputTypeProduct == 'u')
+                {
+                    Console.Write("Manufacture date (DD/MM/YYYY): ");
+                    DateTime InputManufactureDate = DateTime.Parse(Console.ReadLine());
+                    Aula142_UsedProduct UsedProduct = new Aula142_UsedProduct(InputNameProduct, InputPriceProduct, InputManufactureDate);
+                    ProductsList.Add(UsedProduct);
+                }
+                else if (InputTypeProduct == 'i')
+                {
+                    Console.Write("Customs fee: ");
+                    double InputCustomsProduct = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Aula142_ImportedProduct ImportedProduct = new Aula142_ImportedProduct(InputNameProduct, InputPriceProduct, InputCustomsProduct);
+                    ProductsList.Add(ImportedProduct);
+                }
+            }
+
+            Console.WriteLine("\nPRICE TAGS:");
+            foreach (Aula142_Product product in ProductsList)
+            {
+                Console.WriteLine(product.PriceTag());
+            }
+        }
+    }
+}
+
+/*
+//Aula 140
 
 using System;
 using System.Globalization;
@@ -57,7 +114,6 @@ namespace ProjetosCentralizados
 }
 
 
-/*
 // Aula 138
 
 using System;
