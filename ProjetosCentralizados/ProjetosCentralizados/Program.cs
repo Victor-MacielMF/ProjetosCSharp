@@ -1,4 +1,57 @@
-﻿//Aula 142
+﻿//Aula 145
+
+using System;
+using System.Globalization;
+using ProjetosCentralizados.Entities;
+using ProjetosCentralizados.Entities.Enums;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the number of shapes: ");
+            int InputQuantityShapes = int.Parse(Console.ReadLine());
+            List<Aula145_Shape> ShapesList = new List<Aula145_Shape>();
+
+            for (int i = 0; i < InputQuantityShapes; i++)
+            {
+                Console.WriteLine("Shape #{0} data:", i + 1);
+                Console.Write("Rectangle or Circle (r/c)? ");
+                char InputTypeShape = char.Parse(Console.ReadLine());
+                Console.Write("Color (Black/Blue/Red): ");
+                Aula145_Color InputColorShape = Enum.Parse<Aula145_Color>(Console.ReadLine());
+
+                if (InputTypeShape == 'r')
+                {
+                    Console.Write("Width: ");
+                    double InputWidthShape = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Console.Write("Height: ");
+                    double InputHeightShape = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Aula145_Rectangle Rectangle = new Aula145_Rectangle(InputColorShape, InputWidthShape, InputHeightShape);
+                    ShapesList.Add(Rectangle);
+                }
+                else if (InputTypeShape == 'c')
+                {
+                    Console.Write("Radius: ");
+                    double InputRadiusShape = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Aula145_Circle Circle = new Aula145_Circle(InputColorShape, InputRadiusShape);
+                    ShapesList.Add(Circle);
+                }
+            }
+
+            Console.WriteLine("\nSHAPE AREAS:");
+            foreach (Aula145_Shape shape in ShapesList)
+            {
+                Console.WriteLine(shape);
+            }
+        }
+    }
+}
+
+/*
+//Aula 142
 
 using System.Globalization;
 using ProjetosCentralizados.Entities;
@@ -54,7 +107,7 @@ namespace ProjetosCentralizados
     }
 }
 
-/*
+
 //Aula 140
 
 using System;
