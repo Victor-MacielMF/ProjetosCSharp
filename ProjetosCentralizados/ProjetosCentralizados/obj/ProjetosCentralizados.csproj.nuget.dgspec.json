@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositórios locais\\Curso-C#\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj": {}
+    "C:\\Repositorios-locais\\ProjetosCSharp\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj": {}
   },
   "projects": {
-    "C:\\Repositórios locais\\Curso-C#\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj": {
+    "C:\\Repositorios-locais\\ProjetosCSharp\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositórios locais\\Curso-C#\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj",
+        "projectUniqueName": "C:\\Repositorios-locais\\ProjetosCSharp\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj",
         "projectName": "ProjetosCentralizados",
-        "projectPath": "C:\\Repositórios locais\\Curso-C#\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj",
-        "packagesPath": "C:\\Users\\joaomaciel\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositórios locais\\Curso-C#\\ProjetosCentralizados\\ProjetosCentralizados\\obj\\",
+        "projectPath": "C:\\Repositorios-locais\\ProjetosCSharp\\ProjetosCentralizados\\ProjetosCentralizados\\ProjetosCentralizados.csproj",
+        "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorios-locais\\ProjetosCSharp\\ProjetosCentralizados\\ProjetosCentralizados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joaomaciel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

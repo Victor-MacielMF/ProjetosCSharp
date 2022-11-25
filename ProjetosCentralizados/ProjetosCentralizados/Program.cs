@@ -1,4 +1,38 @@
-﻿// Aula 155
+﻿//   Aula 198
+using System.IO;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Se o arquivo já estiver criado, é necessário exclui-lo.
+            string Origin = @"C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\Aula195_FileInfo.txt";
+            string Destiny = @"C:\Repositorios-locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\Copia_Aula195_FileInfo.txt";
+
+            try
+            {
+                FileInfo fi = new FileInfo(Origin);
+                fi.CopyTo(Destiny);
+
+                string[] lines = File.ReadAllLines(Origin);
+                foreach (string line in lines)
+                {
+                    Console.WriteLine(line);
+                }
+
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}
+
+/*
+// Aula 155
 
 using System;
 using System.Globalization;
@@ -36,7 +70,7 @@ namespace ProjetosCentralizados
     }
 }
 
-/*
+
 //Aula 146
 
 using System;
