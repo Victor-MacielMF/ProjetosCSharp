@@ -1,4 +1,48 @@
-﻿//   Aula 198
+﻿// Aula 196
+using System.IO;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = @"C:\Repositórios locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\Aula195_FileInfo.txt";
+            FileStream fileStream = null;
+            StreamReader streamReader = null;
+
+            try
+            {
+                fileStream = new FileStream(path, FileMode.Open);
+                streamReader = new StreamReader(fileStream);
+                while (!streamReader.EndOfStream)
+                {
+                    string line = streamReader.ReadLine();
+                    Console.WriteLine(line);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Um erro ocorreu: {0}", e.Message);
+            }
+            finally
+            {
+                if(fileStream != null)
+                {
+                    fileStream.Close();
+                }
+                if(streamReader != null)
+                {
+                    streamReader.Close();
+                }
+            }
+        }
+    }
+}
+
+/*
+
+//   Aula 195
 using System.IO;
 
 namespace ProjetosCentralizados
@@ -31,7 +75,7 @@ namespace ProjetosCentralizados
     }
 }
 
-/*
+
 // Aula 155
 
 using System;
