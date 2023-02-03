@@ -1,4 +1,37 @@
-﻿// Aula 197
+﻿// Aula 198
+using System.IO;
+
+namespace ProjetosCentralizados
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = @"C:\Repositórios locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\Aula195_FileInfo.txt";
+            string destin = @"C:\Repositórios locais\ProjetosCSharp\ProjetosCentralizados\ProjetosCentralizados\Aula198_FileInfo.txt";
+
+            try
+            {
+                string[] lines = File.ReadAllLines(path);
+
+                using (StreamWriter sw = File.AppendText(destin))
+                {
+                    foreach (string line in lines)
+                    {
+                        sw.WriteLine(line.ToUpper());
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}
+
+/*
+// Aula 197
 using System.IO;
 
 namespace ProjetosCentralizados
